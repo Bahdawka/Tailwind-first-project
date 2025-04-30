@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/Tailwind.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind</title>
+</head>
+
+<body class="body"> <!--White theme + Darkmode-->
+  <div class="page-container">
+    <header class="header"> <!-- header -->
+
+      <a class="logo" href="#">Tailwind</a>
+
+      <nav><!-- navbar-list -->
+        <ul class="navbar-list">
+          <li><a class="navbar-link" href="#">Home </a></li>
+          <li><a class="navbar-link" href="#">About</a></li>
+          <li><a class="navbar-link" href="#">Contact</a></li>
+          <li><a class="navbar-link" href="#">News</a></li>
+        </ul>
+      </nav><!-- navbar-list -->
+    </header> <!-- header -->
+
+    <nav class="breadcrumb"><!-- breadcrumb -->
+      <a class="breadcrumb-link" href="#">Home</a>
+      <span class="breadcrumb-separator">→</span>
+      <a class="breadcrumb-link" href="#">Articles</a>
+      <span class="breadcrumb-separator">→</span>
+      <a class="breadcrumb-link" href="#">All</a>
+    </nav><!-- breadcrumb -->
+
+    <main> <!-- main -->
+
+      <div class="hero"> <!-- hero -->
+        <article class="hero-article md:w-2/3">
+          <a class="hero-link group" href="#">
+            <h2 class="hero-title">
+              Tailwind CSS is a popular utility-first CSS framework that helps developers build custom user interfaces
+              quickly and efficiently.</h2>
+            <img class="hero-image" src="./image1.jpg" alt="image">
+            <div class="hero-overlay-primary"></div>
+          </a>
+        </article>
+
+        <article class="hero-article md:w-1/3">
+          <a class="hero-link group" href="#">
+            <h2 class="hero-title">Instead of writing traditional CSS, Tailwind provides low-level utility classes.</h2>
+            <img class="hero-image" src="./image2.jpg" alt="image">
+            <div class="hero-overlay-secondary"></div>
+          </a>
+        </article>
+      </div> <!-- hero -->
+
+      <div class="main-container"> <!-- main-container -->
+        <section class="articles-container"> <!-- articles-container -->
+          <h1 class="articles-header">Tailwind CSS framework </h1>
+          <div> <!-- articles-list -->
+            <article class="article">
+              <a class="article-link group" href="#">
+                <div class="article-caption">
+                  <h2 class="article-title">Tailwind CSS is a utility-first CSS framework.</h2>
+                  <p class="article-description">It allows developers to build modern websites and user interfaces
+                    quickly and efficiently.</p>
+                </div>
+                <div class="article-image-container">
+                  <img class="article-image" src="./image3.jpg" alt="image">
+                </div>
+              </a>
+            </article>
+
+            <article class="article">
+              <a class="article-link group" href="#">
+                <div class="article-caption">
+                  <h2 class="article-title">Unlike traditional CSS frameworks like Bootstrap.</h2>
+                  <p class="article-description">Tailwind provides low-level utility classes that you can combine to
+                    create completely custom designs without leaving your HTML.</p>
+                </div>
+                <div class="article-image-container">
+                  <img class="article-image" src="./image4.jpg" alt="image">
+                </div>
+              </a>
+            </article>
+
+            <article class="article">
+              <a class="article-link group" href="#">
+                <div class="article-caption">
+                  <h2 class="article-title">Tailwind CSS encourages a more direct approach to styling.</h2>
+                  <p class="article-description">elements by using descriptive class names such as bg-blue-500,
+                    text-center, or p-4. This makes the design process more flexible and scalable.</p>
+                </div>
+                <div class="article-image-container">
+                  <img class="article-image" src="./image5.jpg" alt="image">
+                </div>
+              </a>
+            </article>
+
+            <article class="article">
+              <a class="article-link group" href="#">
+                <div class="article-caption">
+                  <h2 class="article-title">Tailwind includes responsive design utilities.</h2>
+                  <p class="article-description">It offers powerful configuration options through a central config file,
+                    enabling full customization of themes, breakpoints, colors, spacing, and more.</p>
+                </div>
+                <div class="article-image-container">
+                  <img class="article-image" src="./image6.jpg" alt="image">
+                </div>
+              </a>
+            </article>
+
+            <article class="article">
+              <a class="article-link group" href="#">
+                <div class="article-caption">
+                  <h2 class="article-title">Tailwind CSS has gained significant popularity in the web development
+                    community.</h2>
+                  <p class="article-description">Due to its efficiency, flexibility, and strong ecosystem of plugins and
+                    tools like Tailwind UI and Headless UI.</p>
+                </div>
+                <div class="article-image-container">
+                  <img class="article-image" src="./image1.jpg" alt="image">
+                </div>
+              </a>
+            </article>
+          </div><!-- articles-list -->
+
+          <div class="pagination-container"> <!-- pagination-container -->
+            <ul class="pagination-list">
+              <li><a class="pagination-link rounded-l-md" href="#">First</a></li>
+              <li><a class="pagination-link" href="#">Prev</a></li>
+              <li><a class="pagination-link" href="#">1</a></li>
+              <li><a class="pagination-link" href="#">2</a></li>
+              <li><a class="pagination-link" href="#">3</a></li>
+              <li><a class="pagination-link" href="#">4</a></li>
+              <li><a class="pagination-link" href="#">5</a></li>
+              <li><a class="pagination-link" href="#">Next</a></li>
+              <li><a class="pagination-link rounded-r-md" href="#">Last</a></li>
+            </ul>
+          </div><!-- pagination-container -->
+
+        </section><!-- articles-container -->
+
+        <div class="form-container"> <!-- form -->
+          <h4 class="form-header">Subscribe form</h4>
+          <form action="url">
+            <div class="form-group">
+              <label class="form-label" for="email">Subscribe to our newsletter</label>
+              <input class="form-control" type="email" id="email" name="email" placeholder="Enter your E-mail">
+            </div>
+            <button class="form-button" type="submit">Subscribe</button>
+          </form>
+        </div><!-- form -->
+
+      </div> <!-- main-container -->
+
+    </main><!-- main -->
+
+    <footer class="footer"><!--footer start-->
+      <div class="footer-container">
+        <div>
+          <h5 class="footer-header">About</h5>
+          <ul>
+            <li><a class="footer-link" href="#">About the project</a></li>
+            <li><a class="footer-link" href="#">Our team</a></li>
+            <li><a class="footer-link" href="#">Contacts</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer-header">We are on social networks</h5>
+          <ul>
+            <li><a class="footer-link" href="#">Facebook</a></li>
+            <li><a class="footer-link" href="#">Instagram</a></li>
+            <li><a class="footer-link" href="#">Twitter</a></li>
+            <li><a class="footer-link" href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer-header">Created by</h5>
+          <ul>
+            <li><a class="footer-link" href="#">Bohdan Horobets 2025</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer><!--footer end-->
+  </div>
+
+  <script type="module" src="./src/js/main.js"></script>
+</body>
+
+</html>
